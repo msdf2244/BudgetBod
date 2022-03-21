@@ -1,0 +1,38 @@
+/*CSS stylesheet for Budget Bod project*/
+
+/* Navbar for screen*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #005900;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color:white;
+  font-family: "Monaco" , monospace;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: #333;
+}
+
+.active{
+  background-color: #EDD100;
+  color: black;
+}
+
+/* Buttons*/
+
+.button {
+
+}
