@@ -33,6 +33,29 @@ li a:hover:not(.active){
 
 /* Buttons*/
 
-.button {
+.submit {
+  display: inline-block; 
+  padding: 5px 15px; 
+  font-size: 18px;
+  cursor: pointer; 
+  text-align: center;
+  text-decoration: none;
+  outline: none; 
+  color: #EDD100;
+  background-color: #005900;
+  border:none; 
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
 
+.submit:hover{
+  background-color: #EDD100 ;
+  color: #005900;
+}
+
+.submit:active{
+  background-color: #EDD100 ;
+  color: #005900;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
