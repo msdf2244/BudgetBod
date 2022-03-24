@@ -1,6 +1,14 @@
 /*CSS stylesheet for Budget Bod project*/
 
 /* Navbar for screen*/
+.bb_navbar{
+  color: white;
+  background-color: #005900;
+}
+
+
+
+
 ul{
   list-style-type: none;
   margin: 0;
@@ -23,7 +31,8 @@ li a {
 }
 
 li a:hover:not(.active){
-  background-color: #333;
+  background-color: #EDD100;
+  color: black; 
 }
 
 .active{
