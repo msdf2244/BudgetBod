@@ -1,0 +1,47 @@
+.recipe_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: white;
+    background-color: #005900;
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flex-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    
+    justify-content: center;
+    
+   
+  }
+  
+  .flex-container > div {
+    color: white;
+    flex-wrap: wrap; 
+    margin: 10px;
+   
+  }
+  
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .view_recipe{
+      border: none;
+    color: black;
+    background-color:#EDD100;
+    padding: 7.5px 16px;
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer; 
+  }
