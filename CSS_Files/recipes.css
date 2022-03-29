@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #EDD100;
+    --secondary-color: #005900;
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.image-container {
+    width: 100%;
+    box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.title-bar {
+    background: var(--primary-color);
+    font-weight: bold;
+    font-size: 30pt;
+    padding: 15px;
+}
+
+.card-container {
+    box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+    width: 100%;
+}
+
+.card-title {
+    background: var(--primary-color);
+    font-weight: bold;
+    font-size: 30pt;
+    padding: 15px;
+}
+
+.card-body {
+    color: white;
+    width: 100%;
+    height: 1000px;
+    font-weight: bold;
+    font-size: 20pt;
+    background: var(--secondary-color);
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-spacing: 30px;
+}
+
+th {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+td {
+  padding: 15px;
+}
