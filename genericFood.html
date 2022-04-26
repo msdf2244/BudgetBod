@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    <link rel="stylesheet" href="../CSS_Files/makeup.css">
+    <link rel="stylesheet" href="../CSS_Files/recipes.css"> -->
+    <script src="bbscript.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Navbar -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="Recipes.html">Recipes</a></li>
+        <li><a href="About.html">About Us</a></li>
+    </ul>
+    
+    <div class="grid-container">
+        <div class="title-bar" id="title">
+            <!-- INSERT NAME -->
+                <script>
+                    fillTitle();
+                </script>
+        </div>
+        
+        <div class="image-container" id="FoodImage">
+            <!-- Call fillImag function here -->
+            <script>
+                    addImag();
+            </script>
+        </div>
+        
+        <div class="card-container">
+            <div class="card-title">
+                Recipe
+            </div>
+            <div class="card-body">
+                <table>
+                    <th>Ingredients</th>
+                    <th>Measurements</th>
+                    <th>Price</th>
+                    <div id = "IngTable">
+                        <!-- Call addRows function here -->
+                        <script>
+                            addRows();
+                        </script>
+                    </div>
+                </table>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card-title">
+                Instructions
+            </div>
+            <div class="card-body" id = "InstructionCard">
+                <!-- Call addInst function here -->
+                <script>
+                    addInst();
+                </script>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card-title">
+                Nutritional Information
+            </div>
+            <div class="card-body">
+                <table>
+                    <div id="nutritionInfo">
+                    <!-- Call addNutr function here -->
+                    <script>
+                        addNutr();
+                    </script>
+                    </div>
+                </table>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
