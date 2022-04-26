@@ -63,3 +63,9 @@ li a:hover:not(.active){
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+
+/* weight slider */
+.weight_slider{
+  width: 50px;
+}
