@@ -38,9 +38,9 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
     console.log("POST request sent");
-    console.log(req.body)
-    let gender = (req.body.gender === "Male");
-    // let calories = caloric_intake(basal_metabolic_rate())
+    var gender = req.body.gender === "male";
+    // let bmr = basal_metabolic_rate()
+    // var calories = caloric_intake(basal_metabolic_rate())
 })
 
 app.listen(3000, () => {
