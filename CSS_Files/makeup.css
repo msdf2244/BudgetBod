@@ -67,3 +67,8 @@ li a:hover:not(.active){
 form {
   margin: 3em;
 }
+
+/* weight slider */
+.weight_slider{
+  width: 50px;
+}

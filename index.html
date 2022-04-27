@@ -40,6 +40,11 @@
     <label for = "Age">Age:</label>
     <input type = "number" min = 10 max = 150 name="age">  <br></br>
 
+    <!--Height-->
+    <label for = "Height">Height:</label> <br></br>
+    Feet: <input type = "number" id = "feet" name = "feet">  <br></br>
+    Inches: <input type = "number" id = "inches" name = "inches">  <br></br>
+
     <!--Gender Select-->
     <p>Select your gender.</p>
     <input type = "radio" id = "male" name="gender" value = "Male">
@@ -52,6 +57,13 @@
     <h3>Select your Weight</h3>
     <p>Weight: <span id = "weight_value"></span> lbs</p>
     <input type = "range" min = "20" max = "400" value = "200" id = "weight_slider" name="weight"><br></br>
+
+  </div>
+
+   <!--Activity Level-->
+   <div>
+   <label for = "Activity">Activity Level:</label>
+   <input type = "number" min = 1 max = 5 id = "activity_level">  <br></br>
 
   </div>
 
@@ -70,9 +82,11 @@
 
 
   <!--Submit Button-->
-  <input class = "submit" type = "submit" value = "Submit" >
+  <button class = "submit" type="button" window.location.href='Recipes.html'">Submit</button>
 
 <script src = "../Javascript_Files\script.js"></script>
+<script src = "../Javascript_Files\user_input.js"></script>
+
 
 </form>
 
