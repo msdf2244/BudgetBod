@@ -6,12 +6,13 @@
         "fat": 8,
         "carbohydrates": 10,
         "number_of_ingredients": 2,
+        "img_path": "../images/grilled_salmon.jpg",
         "ingredients": [
             "salmon",
             "rosemary"
         ],
-        "price": 5.00,
-        "instructions": "Lorem ipsum"
+        "price": 21.00,
+        "instructions": "Season salmon with salt and set aside.\r\n\r\nCombine marinade ingredients, except lemon slices, in a small saucepan and bring to a boil. Remove from heat and allow to cool to room temperature. Add lemon and pour cooled marinade over fish and marinate refrigerated for 2 to 4 hours. Turn fish occasionally.\r\n\r\nTo serve: Grill or broil on both sides until just done, approximately 4 to 5 minutes per side. Be careful not to overcook. Salmon should still be translucent in the center. Serve with Soba Noodle Salad on the side."
     },
     "2": {
         "name": "Strawberry Banana Smoothie",
@@ -19,11 +20,687 @@
         "protein": 12,
         "fat": 15,
         "carbohydrates": 12,
-        "number_of_ingredients": 5,
+        "number_of_ingredients": 3,
+        "img_path": "../images/grilled_salmon.jpg",
         "ingredients": [
             "banana",
             "strawberry",
             "protein powder"
-        ]
+        ],
+        "price": 13.00, 
+        "instructions": "Blend everything together until smooth."
+        
+    },
+    "3": {
+        "name": "Baked Shrimp Scampi",
+        "calories": 2565,
+        "protein": 200,
+        "fat": 159,
+        "carbohydrates": 76,
+        "number_of_ingredients": 14,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "2\/3 cup panko\r",
+            "1\/4 teaspoon red pepper flakes\r",
+            "1\/2 lemon, zested and juiced\r",
+            "1 extra-large egg yolk\r",
+            "1 teaspoon rosemary, minced\r",
+            "3 tablespoon parsley, minced\r",
+            "4 clove garlic, minced\r",
+            "1\/4 cup shallots, minced\r",
+            "8 tablespoon unsalted butter, softened at room temperature\r",
+            "<hr>",
+            "2 tablespoon dry white wine\r",
+            "Freshly ground black pepper\r",
+            "Kosher salt\r",
+            "3 tablespoon olive oil\r",
+            "2 pound frozen shrimp"
+        ],
+        "price": 15.00, 
+        "instructions": "Preheat the oven to 425 degrees F.\r\n\r\nDefrost shrimp by putting in cold water, then drain and toss with wine, oil, salt, and pepper. Place in oven-safe dish and allow to sit at room temperature while you make the butter and garlic mixture.\r\n\r\nIn a small bowl, mash the softened butter with the rest of the ingredients and some salt and pepper.\r\n\r\nSpread the butter mixture evenly over the shrimp. Bake for 10 to 12 minutes until hot and bubbly. If you like the top browned, place under a broiler for 1-3 minutes (keep an eye on it). Serve with lemon wedges and French bread.\r\n\r\nNote: if using fresh shrimp, arrange for presentation. Starting from the outer edge of a 14-inch oval gratin dish, arrange the shrimp in a single layer cut side down with the tails curling up and towards the center of the dish. Pour the remaining marinade over the shrimp. "
+    
+
+    }, 
+
+    "4": {
+        "name": "Tomato Basil Soup",
+        "calories": 700,
+        "protein": 200,
+        "fat": 50,
+        "carbohydrates": 12,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "4 c tomatoes, minced, peeled, and cored\r",
+            "4 cup vegetable stock\r",
+            "12 basil leaves\r",
+            "1 c heavy cream\r",
+            "1\/4 lb unsalted butter\r",
+            "Salt\r",
+            "1\/4 tsp black pepper"
+        ],
+        "price": 15.00, 
+        "instructions": "Combine tomatoes, juice\/and or possibly stock in saucepan. Simmer 30 min. Puree, along with the basil leaves, in small batches, in blender or food processor or use an immersion blender in the pan.\r\n\r\nReturn to saucepan and add in cream and butter, while stirring over low heat. Garnish with basil leaves and serve with your favorite bread."
+    
+
+    },
+
+    "5": {
+        "name": "Guacamole",
+        "calories": 1552,
+        "protein": 200,
+        "fat": 120,
+        "carbohydrates": 72,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "4 ripe avocados\r",
+            "2 roma tomates, diced fine\r",
+            "1\/2 red onion, minced\r",
+            "1\/2 handful cilantro, minced\r",
+            "2 clove garlic, minced\r",
+            "1 lime, juiced\r",
+            "Pinch of sea salt\r",
+            "1 jalapeno, seeded and minced fine (optional)"
+        ],
+        "price": 8.00, 
+        "instructions": "1. Place all ingredients in a bowl with a flat bottom and mash it with a potato masher.  Alternatively, you can mix everything briefly in a food processor.\r\n2. Stir well and keep refrigerated. This dish will brown on the areas exposed to air within a few hours, so serve it shortly after making it or just stir again before serving."
+    
+    },
+
+    "6": {
+        "name": "Frozen lemon souffle",
+        "calories": 1732,
+        "protein": 56,
+        "fat": 100,
+        "carbohydrates": 196,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup granulated sugar\r",
+            "1 tbsp lemon zest, grated\r",
+            "3\/4 cup lemon juice\r",
+            "8 large eggs, whites and yolks separated\r",
+            "1\/4 tsp salt\r",
+            "2\/3 cup heavy cream, cold\r",
+            "1 1\/2 cup raspberries, about 6 oz\r",
+            "confectioners' sugar, for dusting"
+        ],
+        "price": 6.00, 
+        "instructions": "1. Wrap outside of a 3.5-cup souffle mold or four 6-ounce ramekins with parchment, extending 2 to 3 inches above rim (it should fit snugly). Secure with tape, set aside.\r\n\r\n2. In a medium saucepan, whisk together granulated sugar, lemon zest and juice, egg yolks, and salt over medium-high. Cook, whisking constantly, until mixture is thick enough to coat the back of a spoon and small bubbles form around edge of pan, about 5 minutes (do not boil). Immediately remove from heat while continuing to whisk. Pour through a fine-mesh sieve into a heatproof bowl, pressing on lemon curd with a rubber spatula.\r\n\r\n3. Place plastic wrap directly against surface of curd and refrigerate until cool, about 30 minutes (or up to overnight).\r\n\r\n4. In a large bowl, using an electric mixer, beat egg whites on high until stiff peaks form, 2 minutes. Gently fold egg whites into cooled lemon curd. In the same large bowl, beat cream on high until stiff peaks form, 1 to 2 minutes. Gently fold whipped cream into lemon curd mixture. Pour into mold and freeze until firm, 6 hours (or up to overnight). To serve, remove parchment, top with raspberries and dust with confectioners' sugar."    
+    },
+
+    "7": {
+        "name": "Tex-mex rice and black eyed peas",
+        "calories": 2164,
+        "protein": 84,
+        "fat": 88,
+        "carbohydrates": 264,
+        "number_of_ingredients": 10,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup uncooked brown rice\r",
+            "1 tbsp extra-virgin olive oil\r",
+            "1 cup fresh salsa, plus more for topping\r",
+            "1\/2 tsp ground cumin\r",
+            "2 14oz cans black-eyed peas, 1 undrained; 1 drained and rinsed\r",
+            "3 cup baby spinach\r",
+            "1\/4 cup fresh cilantro, chopped\r",
+            "1 avocado, halved, pitted and sliced\r",
+            "1 cup shredded cheddar cheese\r",
+            "Sour cream or Greek yogurt, for serving (optional)"
+        ],
+        "price": 7.00, 
+        "instructions": "1. Cook the rice as the label directs. Meanwhile, heat the olive oil in a medium saucepan over medium-high heat. Add the salsa and cumin and cook, stirring, until the salsa is soft, about 5 minutes. Add the black-eyed peas, plus the liquid from one of the cans and 1\/4 cup water. Cook, stirring occasionally, until the beans are creamy and tender, about 12 minutes.\r\n\r\n2. Fluff the rice with a fork and divide among bowls. Add the spinach and cilantro to the black-eyed pea mixture and stir until wilted, about 1 minute; spoon evenly over the rice. Top each serving with a few avocado slices, some cheese and more salsa. Serve with sour cream or Greek yogurt, if desired.",    },
+
+    "8": {
+        "name": "Baked eggs and beans on toast",
+        "calories": 2236,
+        "protein": 56,
+        "fat": 80,
+        "carbohydrates": 268,
+        "number_of_ingredients": 8,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup granulated sugar\r",
+            "1 tbsp lemon zest, grated\r",
+            "3\/4 cup lemon juice\r",
+            "8 large eggs, whites and yolks separated\r",
+            "1\/4 tsp salt\r",
+            "2\/3 cup heavy cream, cold\r",
+            "1 1\/2 cup raspberries, about 6 oz\r",
+            "confectioners' sugar, for dusting"
+        ],
+        "price": 10.00, 
+        "instructions": "1. Preheat the oven to 375F. Heat olive oil in a large ovenproof skillet over medium-high heat. Add the onion and cook, stirring, until golden, about 5 minutes. Add the tomato paste and cook, stirring, 1 more minute. Stir in the vinegar, honey mustard, Worcestershire sauce, water, and salt and pepper to taste. Bring to a simmer, then add the beans, plus the liquid from one of the cans. Cook until the beans are soft, about 5 more minutes.\r\n\r\n2. Make eight indentations in the bean mixture and crack an egg into each. Sprinkle with salt and pepper and transfer to the oven. Bake until the egg whites are set, 10 to 14 minutes. (For 2 servings, 8-9 minutes. Whites should still be slightly \"jiggly\" when you remove from oven.)\r\n\r\n3. Meanwhile, heat a large skillet over medium-high heat. Brush the bread with olive oil on both sides and toast in the skillet, 1 minute per side. Toss the tomatoes, parsley and remaining olive oil, and salt and pepper to taste in a bowl. Divide the toast among plates; top each with 2 eggs, some beans and the tomato salad."    },
+
+    "9": {
+        "name": "Frozen lemon souffle",
+        "calories": 1732,
+        "protein": 56,
+        "fat": 100,
+        "carbohydrates": 196,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup granulated sugar\r",
+            "1 tbsp lemon zest, grated\r",
+            "3\/4 cup lemon juice\r",
+            "8 large eggs, whites and yolks separated\r",
+            "1\/4 tsp salt\r",
+            "2\/3 cup heavy cream, cold\r",
+            "1 1\/2 cup raspberries, about 6 oz\r",
+            "confectioners' sugar, for dusting"
+        ],
+        "price": 6.00, 
+        "instructions": "1. Wrap outside of a 3.5-cup souffle mold or four 6-ounce ramekins with parchment, extending 2 to 3 inches above rim (it should fit snugly). Secure with tape, set aside.\r\n\r\n2. In a medium saucepan, whisk together granulated sugar, lemon zest and juice, egg yolks, and salt over medium-high. Cook, whisking constantly, until mixture is thick enough to coat the back of a spoon and small bubbles form around edge of pan, about 5 minutes (do not boil). Immediately remove from heat while continuing to whisk. Pour through a fine-mesh sieve into a heatproof bowl, pressing on lemon curd with a rubber spatula.\r\n\r\n3. Place plastic wrap directly against surface of curd and refrigerate until cool, about 30 minutes (or up to overnight).\r\n\r\n4. In a large bowl, using an electric mixer, beat egg whites on high until stiff peaks form, 2 minutes. Gently fold egg whites into cooled lemon curd. In the same large bowl, beat cream on high until stiff peaks form, 1 to 2 minutes. Gently fold whipped cream into lemon curd mixture. Pour into mold and freeze until firm, 6 hours (or up to overnight). To serve, remove parchment, top with raspberries and dust with confectioners' sugar."    
+    },
+
+    "10": {
+        "name": "Asian noodle Salad",
+        "calories": 500,
+        "protein": 12,
+        "fat": 100,
+        "carbohydrates": 150,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "12 oz soba noodles\r",
+            "1 tsp sesame oil\r",
+            "1 tsp hot chili oil\r",
+            "1 tbsp hoisin sauce\r",
+            "2 tbsp rice wine vinegar\r",
+            "3 tbsp soy sauce\r",
+            "5 tbsp extra-virgin olive oil\r",
+            "<hr>\r",
+            "1 carrot, thinly sliced or julienned\r",
+            "2 stalk celery, thinly sliced or julienned\r",
+            "5 green onions, bottom 4 inches, thinly sliced\r",
+            "1 cup thinly sliced napa cabbage\r",
+            "1\/2 red bell pepper, thinly sliced or julienned\r",
+            "3 tablespoon cilantro, minced\r",
+            "3 tablespoon sesame seeds, toasted, for garnish\r",
+            "4 tablespoon unsalted peanuts, for garnish"
+        ],
+        "price": 17.00, 
+        "instructions": "1. Preheat the oven to 375F. Heat olive oil in a large ovenproof skillet over medium-high heat. Add the onion and cook, stirring, until golden, about 5 minutes. Add the tomato paste and cook, stirring, 1 more minute. Stir in the vinegar, honey mustard, Worcestershire sauce, water, and salt and pepper to taste. Bring to a simmer, then add the beans, plus the liquid from one of the cans. Cook until the beans are soft, about 5 more minutes.\r\n\r\n2. Make eight indentations in the bean mixture and crack an egg into each. Sprinkle with salt and pepper and transfer to the oven. Bake until the egg whites are set, 10 to 14 minutes. (For 2 servings, 8-9 minutes. Whites should still be slightly \"jiggly\" when you remove from oven.)\r\n\r\n3. Meanwhile, heat a large skillet over medium-high heat. Brush the bread with olive oil on both sides and toast in the skillet, 1 minute per side. Toss the tomatoes, parsley and remaining olive oil, and salt and pepper to taste in a bowl. Divide the toast among plates; top each with 2 eggs, some beans and the tomato salad."    
+    },
+
+    "11": {
+        "name": "Cherry lime granola",
+        "calories": 300,
+        "protein": 12,
+        "fat": 40,
+        "carbohydrates": 80,
+        "number_of_ingredients": 8,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "3 cup rolled oats, not quick-cooking\r",
+            "1 cup almonds, raw\r",
+            "1\/4 cup unsalted butter, cut into pieces\r",
+            "1\/3 cup agave nectar\r",
+            "1 tbsp lime zest\r",
+            "1\/4 cup lime juice, about 2 limes\r",
+            "1\/2 tsp salt\r",
+            "1 cup dried tart cherries, or cranberries"
+        ],
+        "price": 5.00,
+        "instructions": "Preheat oven to 300F. In a large bowl, combine oats and nuts. In a small saucepan, combine butter, agave nectar, lime zest, juice, and salt over medium. Cook, stirring occasionally, until butter melts, about 2 minutes. (Or, place ingredients in a medium microwave-safe bowl and microwave until butter melts, 1 to 2 minutes; stir until combined). Pour butter mixture over oat mixture and toss until oats and nuts are completely coated. Transfer to a parchment-lined rimmed baking sheet and spread in an even layer. Bake until oats are lightly golden, 30 to 35 minutes, stirring every 10 minutes. Let cool completely on a sheet on a wire rack, 20 minutes, then stir in dried cherries.\r\n\r\nStore in airtight containers at room temperature, up to 3 weeks.\r\n\r\nMakes about 5 cups, each serving is 1\/2 cup."
+        },
+    "12": {
+        "name": "Strawberry Banana Smoothie",
+        "calories": 300,
+        "protein": 12,
+        "fat": 15,
+        "carbohydrates": 12,
+        "number_of_ingredients": 3,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "banana",
+            "strawberry",
+            "protein powder"
+        ],
+        "price": 13.00, 
+        "instructions": "Blend everything together until smooth."
+        
+    },
+    "13": {
+        "name": "Chili Lemon Cauliflower",
+        "calories": 168,
+        "protein": 12,
+        "fat": 0,
+        "carbohydrates": 44,
+        "number_of_ingredients": 5,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 large head cauliflower, cut into florets\r",
+            "1 tbsp lemon zest\r",
+            "2 tbsp lemon juice\r",
+            "1\/4 tsp red pepper flakes\r",
+            "salt and pepper"
+        ],
+        "price": 3.00, 
+        "instructions": "Place a steamer basket in a saucepan with 2 inches simmering water. Add cauliflower, cover, and steam until tender when pierced with a knife, about 8 minutes. Transfer to a bowl and toss with zest, juice, and red pepper. Season with salt and pepper. Serve warm or at room temperature.",    
+
+    }, 
+
+    "14": {
+        "name": "Brussels sprouts with maple and cayenne",
+        "calories": 200,
+        "protein": 20,
+        "fat": 0,
+        "carbohydrates": 12,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "instructions": "Preheat oven to 400F. On a rimmed baking sheet, toss brussels sprouts with olive oil and salt. Roast until brussels sprouts are browned in spots and tender when pierced with a knife, 15 to 20 minutes, stirring halfway through. Meanwhile, in a small bowl, combine maple syrup and cayenne pepper. Drizzle brussels sprouts with maple syrup mixture, stir to coat and roast 1 minute.",
+        "ingredients": [
+            "2 lb brussels sprouts, trimmed and halved lengthwise\r",
+            "1 tbsp extra-virgin olive oil\r",
+            "1 tsp extra-virgin olive oil\r",
+            "coarse salt\r",
+            "1 tbsp maple syrup\r",
+            "1\/8 tsp cayenne pepper"
+        ],
+        "price": 12.00    
+
+    },
+
+    "15": {
+        "name": "Marinated feta, spinach & poached egg salad",
+        "calories": 400,
+        "protein": 15,
+        "fat": 16,
+        "carbohydrates": 32,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "instructions": "1. For vinaigrette, whisk together all ingredients. Combine half of the vinaigrette and feta in a small mixing bowl; let feta stand 20 minutes. Set aside remaining vinaigrette.\r\n2. Combine spinach, tomatoes, orange segments, onion and remaining vinaigrette in a large bowl; toss to coat.\r\n3. Bring 4 cups water and 1 tbsp red wine vinegar to a boil in 10-inch skillet; reduce heat to a gentle simmer. Crack one egg into a small prep bowl and gently add to water; repeat with remaining eggs. Carefully move a skimmer under eggs to prevent sticking. Cook 3-5 minutes or according to desired doneness. Remove eggs with skimmer to paper towel-lined plate.\r\n4. Remove feta from vinaigrette; discard vinaigrette. To serve, divide spinach mixture among serving plates. Top with feta and poached eggs; sprinkle with salt and black pepper. Serve with toasted breads slices.",
+        "ingredients": [
+            "1\/2 cup red wine vinegar\r",
+            "6 tbsp fresh orange juice, see tip below\r",
+            "3 tbsp olive oil\r",
+            "2 tbsp fresh thyme, finely chopped\r",
+            "2 tbsp fresh oregano, finely chopped\r",
+            "2 tsp sugar\r",
+            "4 garlic cloves, pressed\r",
+            "1 tsp crushed red pepper flakes\r",
+            "<hr>",
+            "4 oz feta cheese, cut into 1\/2 inch cubes\r",
+            "8 slices french bread, cut 1\/4 in thick, brushed with oil and toasted\r",
+            "6 cup baby spinach\r",
+            "1 cup grape tomatoes, halved\r",
+            "2 medium oranges, cut into segments\r",
+            "1\/4 small red onion, thinly sliced\r",
+            "4 eggs\r",
+            "1\/4 tsp salt\r",
+            "1\/4 tsp ground black pepper"
+        ],
+        "price": 8.00    
+    },
+
+    "16": {
+        "name": "Light ranch dressing",
+        "calories": 150,
+        "protein": 8,
+        "fat": 21,
+        "carbohydrates": 35,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "instructions": "Whisk together all ingredients in a bowl.",
+        "ingredients": [
+            "2\/3 cup buttermilk\r",
+            "1\/4 cup mayonnaise\r",
+            "2 tsp Worcestershire sauce\r",
+            "1\/2 tsp onion powder\r",
+            "1\/2 tsp dried onion flakes\r",
+            "1\/4 tsp garlic powder\r",
+            "1 tbsp fresh chives, chopped\r",
+            "1 tbsp fresh dill, chopped\r",
+            "1 tbsp fresh parsley, chopped\r",
+            "1\/2 tsp salt\r",
+            "1\/4 tsp ground pepper"
+        ],
+        "price": 6.00
+    },
+
+    "17": {
+        "name": "Smoky white bean and arugula panini",
+        "calories": 400,
+        "protein": 32,
+        "fat": 88,
+        "carbohydrates": 62,
+        "number_of_ingredients": 10,
+        "img_path": "../images/grilled_salmon.jpg",
+        "instructions": "1. Combine 1 tbsp of the oil (for 4 servings), rosemary, and pressed garlic in a small bowl, microwave on high 1 minute. Place rosemary mixture, lemon juice, beans, salt and black pepper in food processor. Pulse until a coarse paste forms, scraping down sides of bowl as necessary.\r\n\r\n2. To assemble panini, brush one side of each bread slice with remaining oil; place bread oil side down on cutting board. Spread 2 tbsp of the bean mixture over each bread slice; sprinkle with cheese, pressing down firmly. Arrange tomato slices, onion and arugula over half of the bread slices; top with remaining bread slices, oil side up.\r\n\r\n3. Heat grill pan or griddle over medium heat. Cook panini 2-3 minutes per side or until grill marks appear and bread is golden brown. Cook in batches if needed. Slice panini in half crosswise; serve immediately.",
+        "ingredients": [
+            "1 tbsp olive oil\r",
+            "1 tbsp fresh rosemary, finely chopped\r",
+            "1 garlic clove, pressed\r",
+            "2 tsp lemon juice\r",
+            "1 can great northern beans, drained and rinsed\r",
+            "1\/4 tsp salt\r",
+            "1\/4 tsp ground black pepper\r",
+            "<hr>",
+            "1\/2 tbsp olive oil\r",
+            "8 slices Italian bread, cut 1\/2-in. thick\r",
+            "6 oz smoked mozzarella cheese, shredded\r",
+            "2 medium tomatoes, sliced\r",
+            "1\/4 small red onion, thinly sliced\r",
+            "2 cup arugula"
+        ],
+        "price": 7.00
+    },
+    "18": {
+        "name": "Hawaiian style short ribs (slow cooker)",
+        "calories": 350,
+        "protein": 20,
+        "fat": 40,
+        "carbohydrates": 26,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "instructions": "In a food processor, pulse together butter, cheese, egg, mustard, salt, and red-pepper flakes until smooth. Add flour and pulse until combined. Transfer dough to a work surface and form into a 2-inch-wide log. Wrap in plastic and refrigerate until firm, 4 hours (or up to 1 day).\r\n\r\nPreheat oven to 350 degrees, with racks in upper and lower thirds. Slice dough into 1\/4-inch rounds and arrange, 1 inch apart, on two parchment-lined baking sheets. Bake until edges are golden, 15 to 20 minutes, rotating sheets halfway through. Let cool completely on racks before serving.\r\n\r\nCook's Note\r\nMix It Up: In place of red-pepper flakes, try stirring in 3 tablespoons tomato paste or 1\/3 cup crumbled cooked bacon, finely chopped herbs, or finely diced fresh green chiles.\r\n\r\nStore crackers in an airtight container, up to 1 day.",
+        "ingredients": [
+            "1\/2 cup unsalted butter, room temperature\r",
+            "1\/2 pound sharp cheddar, grated (3 cups)\r",
+            "1 large egg\r",
+            "1 teaspoon Dijon mustard\r",
+            "1 teaspoon fine salt\r",
+            "3\/4 teaspoon red-pepper flakes\r",
+            "1 1\/4 cup all-purpose flour, spooned and leveled"
+        ],
+        "price": 10.00
+    }, 
+    "19": {
+        "name": "Chiles Rellenos",
+        "calories": 1732,
+        "protein": 56,
+        "fat": 100,
+        "carbohydrates": 196,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup granulated sugar\r",
+            "1 tbsp lemon zest, grated\r",
+            "3\/4 cup lemon juice\r",
+            "8 large eggs, whites and yolks separated\r",
+            "1\/4 tsp salt\r",
+            "2\/3 cup heavy cream, cold\r",
+            "1 1\/2 cup raspberries, about 6 oz\r",
+            "confectioners' sugar, for dusting"
+        ],
+        "price": 6.00, 
+        "instructions": "1. Wrap outside of a 3.5-cup souffle mold or four 6-ounce ramekins with parchment, extending 2 to 3 inches above rim (it should fit snugly). Secure with tape, set aside.\r\n\r\n2. In a medium saucepan, whisk together granulated sugar, lemon zest and juice, egg yolks, and salt over medium-high. Cook, whisking constantly, until mixture is thick enough to coat the back of a spoon and small bubbles form around edge of pan, about 5 minutes (do not boil). Immediately remove from heat while continuing to whisk. Pour through a fine-mesh sieve into a heatproof bowl, pressing on lemon curd with a rubber spatula.\r\n\r\n3. Place plastic wrap directly against surface of curd and refrigerate until cool, about 30 minutes (or up to overnight).\r\n\r\n4. In a large bowl, using an electric mixer, beat egg whites on high until stiff peaks form, 2 minutes. Gently fold egg whites into cooled lemon curd. In the same large bowl, beat cream on high until stiff peaks form, 1 to 2 minutes. Gently fold whipped cream into lemon curd mixture. Pour into mold and freeze until firm, 6 hours (or up to overnight). To serve, remove parchment, top with raspberries and dust with confectioners' sugar."    
+    },
+
+    "20": {
+        "name": "Mushroom and lentil soup",
+        "calories": 412,
+        "protein": 12,
+        "fat": 33,
+        "carbohydrates": 160,
+        "number_of_ingredients": 12,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "2 tablespoon extra-virgin olive oil\r",
+            "5 small carrots, diced small\r",
+            "1 medium red onion, diced small\r",
+            "4 clove garlic, minced\r",
+            "3\/4 pound cremini mushrooms, trimmed and coarsely chopped (4 cups)\r",
+            "Coarse salt and ground pepper\r",
+            "9 sprig thyme\r",
+            "3\/4 pound brown lentils\r",
+            "7 cup water\r",
+            "2 tablespoon soy sauce\r",
+            "1\/4 lemon, juiced\r",
+            "2\/3 cup nonfat plain Greek yogurt, for serving"
+        ],
+        "instructions": "In a large Dutch oven or other heavy pot, heat oil over medium. Add carrots, onion, and garlic and cook, stirring occasionally, until beginning to soften, about 6 minutes. Add mushrooms and season with salt and pepper. Cook until mushrooms are softened and golden brown at edges, about 8 minutes.\r\n\r\nAdd thyme, lentils, soy sauce, lemon, and water; bring to a boil. Reduce heat, partially cover, and simmer until lentils are tender, about 25 minutes. Season to taste with salt and pepper. Serve soup topped with yogurt.\r\n\r\nAlternate recipe: use half rice and half lentils.  Add the rice with the water; cook for 15 minutes on medium, before boiling.  Then add lentils, bring to a boil, and simmer for 25 minutes.",
+        "price": 17.00
+    },
+
+    "21": {
+        "name": "Indian Chickpea Wrap",
+        "calories": 450,
+        "protein": 12,
+        "fat": 8,
+        "carbohydrates": 26,
+        "number_of_ingredients": 2,
+        "img_path": "../images/grilled_salmon.jpg",
+        "instructions": "Mix the yogurt, lime juice, cilantro and a pinch of salt in a bowl. Cover and chill until ready to use.\r\n\r\nHeat the vegetable oil in a large skillet over medium-high heat. Combine the ginger, chile, onion, cumin, and heavy pinch of salt, then add to the hot oil and cook, stirring, until most of the liquid has evaporated and the mixture is slightly toasted, about 5 minutes. \r\n\r\nStir in the chickpeas, carrots, salt and water and continue to cook, stirring, until the sauce is thick and the chickpea is heated through, about 2 more minutes. While cooking, lightly mash the chickpeas so they won't roll around when served.  Season with additional salt if necessary.\r\n\r\nDivide the chickpea filling among the naan bread. Drizzle with some of the yogurt sauce and roll up. Serve with chips.",
+        "ingredients": [
+            "1 tbsp ginger, peeled\r",
+            "1 serrano chile pepper, halved, seeded and finely chopped\r",
+            "1\/2 small onion, finely chopped\r",
+            "1\/2 teaspoon ground cumin\r",
+            "salt\r",
+            "<hr>\r",
+            "1\/2 cup low-fat plain greek yogurt\r",
+            "2 teaspoon fresh lime juice\r",
+            "1\/3 cup fresh cilantro, chopped\r",
+            "<hr>\r",
+            "1 tablespoon vegetable oil\r",
+            "2 cup chickpeas\r",
+            "2 medium carrots, shredded\r",
+            "1\/4 tsp salt\r",
+            "1\/2 cup water\r",
+            "4 pieces naan bread, warmed"
+        ],
+        "price": 21.00
+    },
+    "22": {
+        "name": "Strawberry Banana Smoothie",
+        "calories": 300,
+        "protein": 12,
+        "fat": 15,
+        "carbohydrates": 12,
+        "number_of_ingredients": 3,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "banana",
+            "strawberry",
+            "protein powder"
+        ],
+        "price": 13.00, 
+        "instructions": "Blend everything together until smooth."
+        
+    },
+    "23": {
+        "name": "Baked Shrimp Scampi",
+        "calories": 2565,
+        "protein": 200,
+        "fat": 159,
+        "carbohydrates": 76,
+        "number_of_ingredients": 14,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "2\/3 cup panko\r",
+            "1\/4 teaspoon red pepper flakes\r",
+            "1\/2 lemon, zested and juiced\r",
+            "1 extra-large egg yolk\r",
+            "1 teaspoon rosemary, minced\r",
+            "3 tablespoon parsley, minced\r",
+            "4 clove garlic, minced\r",
+            "1\/4 cup shallots, minced\r",
+            "8 tablespoon unsalted butter, softened at room temperature\r",
+            "<hr>",
+            "2 tablespoon dry white wine\r",
+            "Freshly ground black pepper\r",
+            "Kosher salt\r",
+            "3 tablespoon olive oil\r",
+            "2 pound frozen shrimp"
+        ],
+        "price": 15.00, 
+        "instructions": "Preheat the oven to 425 degrees F.\r\n\r\nDefrost shrimp by putting in cold water, then drain and toss with wine, oil, salt, and pepper. Place in oven-safe dish and allow to sit at room temperature while you make the butter and garlic mixture.\r\n\r\nIn a small bowl, mash the softened butter with the rest of the ingredients and some salt and pepper.\r\n\r\nSpread the butter mixture evenly over the shrimp. Bake for 10 to 12 minutes until hot and bubbly. If you like the top browned, place under a broiler for 1-3 minutes (keep an eye on it). Serve with lemon wedges and French bread.\r\n\r\nNote: if using fresh shrimp, arrange for presentation. Starting from the outer edge of a 14-inch oval gratin dish, arrange the shrimp in a single layer cut side down with the tails curling up and towards the center of the dish. Pour the remaining marinade over the shrimp. "
+    
+
+    }, 
+
+    "24": {
+        "name": "Tomato Basil Soup",
+        "calories": 700,
+        "protein": 200,
+        "fat": 50,
+        "carbohydrates": 12,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "4 c tomatoes, minced, peeled, and cored\r",
+            "4 cup vegetable stock\r",
+            "12 basil leaves\r",
+            "1 c heavy cream\r",
+            "1\/4 lb unsalted butter\r",
+            "Salt\r",
+            "1\/4 tsp black pepper"
+        ],
+        "price": 15.00, 
+        "instructions": "Combine tomatoes, juice\/and or possibly stock in saucepan. Simmer 30 min. Puree, along with the basil leaves, in small batches, in blender or food processor or use an immersion blender in the pan.\r\n\r\nReturn to saucepan and add in cream and butter, while stirring over low heat. Garnish with basil leaves and serve with your favorite bread."
+    
+
+    },
+
+    "25": {
+        "name": "Guacamole",
+        "calories": 1552,
+        "protein": 200,
+        "fat": 120,
+        "carbohydrates": 72,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "4 ripe avocados\r",
+            "2 roma tomates, diced fine\r",
+            "1\/2 red onion, minced\r",
+            "1\/2 handful cilantro, minced\r",
+            "2 clove garlic, minced\r",
+            "1 lime, juiced\r",
+            "Pinch of sea salt\r",
+            "1 jalapeno, seeded and minced fine (optional)"
+        ],
+        "price": 8.00, 
+        "instructions": "1. Place all ingredients in a bowl with a flat bottom and mash it with a potato masher.  Alternatively, you can mix everything briefly in a food processor.\r\n2. Stir well and keep refrigerated. This dish will brown on the areas exposed to air within a few hours, so serve it shortly after making it or just stir again before serving."
+    
+    },
+
+    "26": {
+        "name": "Frozen lemon souffle",
+        "calories": 1732,
+        "protein": 56,
+        "fat": 100,
+        "carbohydrates": 196,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup granulated sugar\r",
+            "1 tbsp lemon zest, grated\r",
+            "3\/4 cup lemon juice\r",
+            "8 large eggs, whites and yolks separated\r",
+            "1\/4 tsp salt\r",
+            "2\/3 cup heavy cream, cold\r",
+            "1 1\/2 cup raspberries, about 6 oz\r",
+            "confectioners' sugar, for dusting"
+        ],
+        "price": 6.00, 
+        "instructions": "1. Wrap outside of a 3.5-cup souffle mold or four 6-ounce ramekins with parchment, extending 2 to 3 inches above rim (it should fit snugly). Secure with tape, set aside.\r\n\r\n2. In a medium saucepan, whisk together granulated sugar, lemon zest and juice, egg yolks, and salt over medium-high. Cook, whisking constantly, until mixture is thick enough to coat the back of a spoon and small bubbles form around edge of pan, about 5 minutes (do not boil). Immediately remove from heat while continuing to whisk. Pour through a fine-mesh sieve into a heatproof bowl, pressing on lemon curd with a rubber spatula.\r\n\r\n3. Place plastic wrap directly against surface of curd and refrigerate until cool, about 30 minutes (or up to overnight).\r\n\r\n4. In a large bowl, using an electric mixer, beat egg whites on high until stiff peaks form, 2 minutes. Gently fold egg whites into cooled lemon curd. In the same large bowl, beat cream on high until stiff peaks form, 1 to 2 minutes. Gently fold whipped cream into lemon curd mixture. Pour into mold and freeze until firm, 6 hours (or up to overnight). To serve, remove parchment, top with raspberries and dust with confectioners' sugar."    
+    },
+
+    "27": {
+        "name": "Tex-mex rice and black eyed peas",
+        "calories": 2164,
+        "protein": 84,
+        "fat": 88,
+        "carbohydrates": 264,
+        "number_of_ingredients": 10,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup uncooked brown rice\r",
+            "1 tbsp extra-virgin olive oil\r",
+            "1 cup fresh salsa, plus more for topping\r",
+            "1\/2 tsp ground cumin\r",
+            "2 14oz cans black-eyed peas, 1 undrained; 1 drained and rinsed\r",
+            "3 cup baby spinach\r",
+            "1\/4 cup fresh cilantro, chopped\r",
+            "1 avocado, halved, pitted and sliced\r",
+            "1 cup shredded cheddar cheese\r",
+            "Sour cream or Greek yogurt, for serving (optional)"
+        ],
+        "price": 7.00, 
+        "instructions": "1. Cook the rice as the label directs. Meanwhile, heat the olive oil in a medium saucepan over medium-high heat. Add the salsa and cumin and cook, stirring, until the salsa is soft, about 5 minutes. Add the black-eyed peas, plus the liquid from one of the cans and 1\/4 cup water. Cook, stirring occasionally, until the beans are creamy and tender, about 12 minutes.\r\n\r\n2. Fluff the rice with a fork and divide among bowls. Add the spinach and cilantro to the black-eyed pea mixture and stir until wilted, about 1 minute; spoon evenly over the rice. Top each serving with a few avocado slices, some cheese and more salsa. Serve with sour cream or Greek yogurt, if desired."   },
+
+    "28": {
+        "name": "Mediterranean Patio Pizza",
+        "calories": 2236,
+        "protein": 56,
+        "fat": 80,
+        "carbohydrates": 268,
+        "number_of_ingredients": 8,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "1 cup granulated sugar\r",
+            "1 tbsp lemon zest, grated\r",
+            "3\/4 cup lemon juice\r",
+            "8 large eggs, whites and yolks separated\r",
+            "1\/4 tsp salt\r",
+            "2\/3 cup heavy cream, cold\r",
+            "1 1\/2 cup raspberries, about 6 oz\r",
+            "confectioners' sugar, for dusting"
+        ],
+        "price": 10.00, 
+        "instructions": "1. Preheat the oven to 375F. Heat olive oil in a large ovenproof skillet over medium-high heat. Add the onion and cook, stirring, until golden, about 5 minutes. Add the tomato paste and cook, stirring, 1 more minute. Stir in the vinegar, honey mustard, Worcestershire sauce, water, and salt and pepper to taste. Bring to a simmer, then add the beans, plus the liquid from one of the cans. Cook until the beans are soft, about 5 more minutes.\r\n\r\n2. Make eight indentations in the bean mixture and crack an egg into each. Sprinkle with salt and pepper and transfer to the oven. Bake until the egg whites are set, 10 to 14 minutes. (For 2 servings, 8-9 minutes. Whites should still be slightly \"jiggly\" when you remove from oven.)\r\n\r\n3. Meanwhile, heat a large skillet over medium-high heat. Brush the bread with olive oil on both sides and toast in the skillet, 1 minute per side. Toss the tomatoes, parsley and remaining olive oil, and salt and pepper to taste in a bowl. Divide the toast among plates; top each with 2 eggs, some beans and the tomato salad."    },
+
+    "29": {
+        "name": "Grilled Cheese & Tomato Skillet",
+        "calories": 1732,
+        "protein": 56,
+        "fat": 100,
+        "carbohydrates": 196,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "instructions": "Brush bread slices with butter. Toast in skillet 3-5 minutes until golden brown, turning once.\r\n\r\nMeanwhile, cut 1\/16th (1\/4 cup from 4 cups) of the tomatoes into quarters; set aside for garnish. Finely dice remaining tomatoes.\r\n\r\nAdd oil, onion, and garlic to skillet; cook over medium-high heat 2\u20133 minutes or until onion is translucent, stirring frequently. Carefully add diced tomatoes, broth, pasta, cream, salt and black pepper. Bring to a boil. Cover and cook 6\u20138 minutes or until pasta is still slightly firm, stirring occasionally.\r\n\r\nRemove skillet from heat; add half of the cheese and stir until cheese is completely melted. Top with remaining cheese. Cover and let stand 3\u20134 minutes or until cheese is melted. Arrange bread in an overlapping circular pattern around edge of skillet. Garnish with reserved tomatoes and parsley, if desired.",
+        "ingredients": [
+            "8 slices bread, halved\r",
+            "3 tbsp butter, melted\r",
+            "4 cup grape tomatoes, divided\r",
+            "3 cup vegetable broth\r",
+            "1 medium onion, finely chopped\r",
+            "1 1\/2 tbsp olive oil\r",
+            "3 garlic cloves, pressed\r",
+            "1 lb uncooked medium shell pasta\r",
+            "1\/2 cup heavy whipping cream\r",
+            "2 tsp salt\r",
+            "1 tsp coarsely ground black pepper\r",
+            "2 cup sharp cheddar, shredded and divided\r",
+            "Fresh parsley, chopped (optional)"
+        ],
+        "price": 12.00
+    },
+
+    "30": {
+        "name": "Asian noodle Salad",
+        "calories": 500,
+        "protein": 12,
+        "fat": 100,
+        "carbohydrates": 150,
+        "number_of_ingredients": 7,
+        "img_path": "../images/grilled_salmon.jpg",
+        "ingredients": [
+            "12 oz soba noodles\r",
+            "1 tsp sesame oil\r",
+            "1 tsp hot chili oil\r",
+            "1 tbsp hoisin sauce\r",
+            "2 tbsp rice wine vinegar\r",
+            "3 tbsp soy sauce\r",
+            "5 tbsp extra-virgin olive oil\r",
+            "<hr>\r",
+            "1 carrot, thinly sliced or julienned\r",
+            "2 stalk celery, thinly sliced or julienned\r",
+            "5 green onions, bottom 4 inches, thinly sliced\r",
+            "1 cup thinly sliced napa cabbage\r",
+            "1\/2 red bell pepper, thinly sliced or julienned\r",
+            "3 tablespoon cilantro, minced\r",
+            "3 tablespoon sesame seeds, toasted, for garnish\r",
+            "4 tablespoon unsalted peanuts, for garnish"
+        ],
+        "price": 17.00, 
+        "instructions": "1. Preheat the oven to 375F. Heat olive oil in a large ovenproof skillet over medium-high heat. Add the onion and cook, stirring, until golden, about 5 minutes. Add the tomato paste and cook, stirring, 1 more minute. Stir in the vinegar, honey mustard, Worcestershire sauce, water, and salt and pepper to taste. Bring to a simmer, then add the beans, plus the liquid from one of the cans. Cook until the beans are soft, about 5 more minutes.\r\n\r\n2. Make eight indentations in the bean mixture and crack an egg into each. Sprinkle with salt and pepper and transfer to the oven. Bake until the egg whites are set, 10 to 14 minutes. (For 2 servings, 8-9 minutes. Whites should still be slightly \"jiggly\" when you remove from oven.)\r\n\r\n3. Meanwhile, heat a large skillet over medium-high heat. Brush the bread with olive oil on both sides and toast in the skillet, 1 minute per side. Toss the tomatoes, parsley and remaining olive oil, and salt and pepper to taste in a bowl. Divide the toast among plates; top each with 2 eggs, some beans and the tomato salad."    
     }
+
 }
