@@ -1,5 +1,5 @@
-[
-    {
+{
+    "1": {
         "name": "Rosemary Grilled Salmon",
         "calories": 500,
         "protein": 12,
@@ -13,7 +13,7 @@
         "price": 5.00,
         "instructions": "Lorem ipsum"
     },
-    {
+    "2": {
         "name": "Strawberry Banana Smoothie",
         "calories": 300,
         "protein": 12,
@@ -26,4 +26,4 @@
             "protein powder"
         ]
     }
-]
+}
