@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Rosemary Grilled Salmon",
+        "calories": 500,
+        "protein": 12,
+        "fat": 8,
+        "carbohydrates": 10,
+        "number_of_ingredients": 2,
+        "ingredients": [
+            "salmon",
+            "rosemary"
+        ],
+        "price": 5.00,
+        "instructions": "Lorem ipsum"
+    },
+    {
+        "name": "Strawberry Banana Smoothie",
+        "calories": 300,
+        "protein": 12,
+        "fat": 15,
+        "carbohydrates": 12,
+        "number_of_ingredients": 5,
+        "ingredients": [
+            "banana",
+            "strawberry",
+            "protein powder"
+        ]
+    }
+]
