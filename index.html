@@ -63,7 +63,7 @@
    <!--Activity Level-->
    <div>
    <label for = "Activity">Activity Level:</label>
-   <input type = "number" min = 1 max = 5 id = "activity_level">  <br></br>
+   <input type = "number" min = 1 max = 5 id = "activity_level" name = "activity_level">  <br></br>
 
   </div>
 
@@ -78,18 +78,26 @@
 
   <!--Email-->
   <label for = "Email"> Enter your email: </label>
-  <input type="email" id = "emails" name = "emails" multiple> <br></br>
+  <input type="email" id = "emails" name = "emails"> <br></br>
 
 
   <!--Submit Button-->
-  <button class = "submit" type="button" window.location.href='Recipes.html'">Submit</button>
+  <button class = "submit" type="submit">Submit</button>
 
-<script src = "../Javascript_Files\script.js"></script>
-<script src = "../Javascript_Files\user_input.js"></script>
+<!-- <script src = "../Javascript_Files\script.js"></script>
+<script src = "../Javascript_Files\user_input.js"></script> -->
 
 
 </form>
-
+<script>
+  var slider = document.getElementById("weight_slider");
+  var output = document.getElementById("weight_value");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
 
 </body>
 
