@@ -6,7 +6,7 @@
         "fat": 8,
         "carbs": 10,
         "number_of_ingredients": 2,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "salmon",
             "rosemary"
@@ -21,7 +21,7 @@
         "fat": 15,
         "carbohydrates": 12,
         "number_of_ingredients": 3,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "banana",
             "strawberry",
@@ -38,7 +38,7 @@
         "fat": 159,
         "carbohydrates": 76,
         "number_of_ingredients": 14,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "2\/3 cup panko\r",
             "1\/4 teaspoon red pepper flakes\r",
@@ -69,7 +69,7 @@
         "fat": 50,
         "carbohydrates": 12,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "4 c tomatoes, minced, peeled, and cored\r",
             "4 cup vegetable stock\r",
@@ -92,7 +92,7 @@
         "fat": 120,
         "carbohydrates": 72,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "4 ripe avocados\r",
             "2 roma tomates, diced fine\r",
@@ -115,7 +115,7 @@
         "fat": 100,
         "carbohydrates": 196,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup granulated sugar\r",
             "1 tbsp lemon zest, grated\r",
@@ -137,7 +137,7 @@
         "fat": 88,
         "carbohydrates": 264,
         "number_of_ingredients": 10,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup uncooked brown rice\r",
             "1 tbsp extra-virgin olive oil\r",
@@ -160,7 +160,7 @@
         "fat": 80,
         "carbohydrates": 268,
         "number_of_ingredients": 8,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup granulated sugar\r",
             "1 tbsp lemon zest, grated\r",
@@ -181,7 +181,7 @@
         "fat": 100,
         "carbohydrates": 196,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup granulated sugar\r",
             "1 tbsp lemon zest, grated\r",
@@ -203,7 +203,7 @@
         "fat": 100,
         "carbohydrates": 150,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "12 oz soba noodles\r",
             "1 tsp sesame oil\r",
@@ -233,7 +233,7 @@
         "fat": 40,
         "carbohydrates": 80,
         "number_of_ingredients": 8,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "3 cup rolled oats, not quick-cooking\r",
             "1 cup almonds, raw\r",
@@ -254,7 +254,7 @@
         "fat": 15,
         "carbohydrates": 12,
         "number_of_ingredients": 3,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "banana",
             "strawberry",
@@ -271,7 +271,7 @@
         "fat": 0,
         "carbohydrates": 44,
         "number_of_ingredients": 5,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 large head cauliflower, cut into florets\r",
             "1 tbsp lemon zest\r",
@@ -291,7 +291,7 @@
         "fat": 0,
         "carbohydrates": 12,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "instructions": "Preheat oven to 400F. On a rimmed baking sheet, toss brussels sprouts with olive oil and salt. Roast until brussels sprouts are browned in spots and tender when pierced with a knife, 15 to 20 minutes, stirring halfway through. Meanwhile, in a small bowl, combine maple syrup and cayenne pepper. Drizzle brussels sprouts with maple syrup mixture, stir to coat and roast 1 minute.",
         "ingredients": [
             "2 lb brussels sprouts, trimmed and halved lengthwise\r",
@@ -312,7 +312,7 @@
         "fat": 16,
         "carbohydrates": 32,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "instructions": "1. For vinaigrette, whisk together all ingredients. Combine half of the vinaigrette and feta in a small mixing bowl; let feta stand 20 minutes. Set aside remaining vinaigrette.\r\n2. Combine spinach, tomatoes, orange segments, onion and remaining vinaigrette in a large bowl; toss to coat.\r\n3. Bring 4 cups water and 1 tbsp red wine vinegar to a boil in 10-inch skillet; reduce heat to a gentle simmer. Crack one egg into a small prep bowl and gently add to water; repeat with remaining eggs. Carefully move a skimmer under eggs to prevent sticking. Cook 3-5 minutes or according to desired doneness. Remove eggs with skimmer to paper towel-lined plate.\r\n4. Remove feta from vinaigrette; discard vinaigrette. To serve, divide spinach mixture among serving plates. Top with feta and poached eggs; sprinkle with salt and black pepper. Serve with toasted breads slices.",
         "ingredients": [
             "1\/2 cup red wine vinegar\r",
@@ -344,7 +344,7 @@
         "fat": 21,
         "carbohydrates": 35,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "instructions": "Whisk together all ingredients in a bowl.",
         "ingredients": [
             "2\/3 cup buttermilk\r",
@@ -369,7 +369,7 @@
         "fat": 88,
         "carbohydrates": 62,
         "number_of_ingredients": 10,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "instructions": "1. Combine 1 tbsp of the oil (for 4 servings), rosemary, and pressed garlic in a small bowl, microwave on high 1 minute. Place rosemary mixture, lemon juice, beans, salt and black pepper in food processor. Pulse until a coarse paste forms, scraping down sides of bowl as necessary.\r\n\r\n2. To assemble panini, brush one side of each bread slice with remaining oil; place bread oil side down on cutting board. Spread 2 tbsp of the bean mixture over each bread slice; sprinkle with cheese, pressing down firmly. Arrange tomato slices, onion and arugula over half of the bread slices; top with remaining bread slices, oil side up.\r\n\r\n3. Heat grill pan or griddle over medium heat. Cook panini 2-3 minutes per side or until grill marks appear and bread is golden brown. Cook in batches if needed. Slice panini in half crosswise; serve immediately.",
         "ingredients": [
             "1 tbsp olive oil\r",
@@ -396,7 +396,7 @@
         "fat": 40,
         "carbohydrates": 26,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "instructions": "In a food processor, pulse together butter, cheese, egg, mustard, salt, and red-pepper flakes until smooth. Add flour and pulse until combined. Transfer dough to a work surface and form into a 2-inch-wide log. Wrap in plastic and refrigerate until firm, 4 hours (or up to 1 day).\r\n\r\nPreheat oven to 350 degrees, with racks in upper and lower thirds. Slice dough into 1\/4-inch rounds and arrange, 1 inch apart, on two parchment-lined baking sheets. Bake until edges are golden, 15 to 20 minutes, rotating sheets halfway through. Let cool completely on racks before serving.\r\n\r\nCook's Note\r\nMix It Up: In place of red-pepper flakes, try stirring in 3 tablespoons tomato paste or 1\/3 cup crumbled cooked bacon, finely chopped herbs, or finely diced fresh green chiles.\r\n\r\nStore crackers in an airtight container, up to 1 day.",
         "ingredients": [
             "1\/2 cup unsalted butter, room temperature\r",
@@ -416,7 +416,7 @@
         "fat": 100,
         "carbohydrates": 196,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup granulated sugar\r",
             "1 tbsp lemon zest, grated\r",
@@ -438,7 +438,7 @@
         "fat": 33,
         "carbohydrates": 160,
         "number_of_ingredients": 12,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "2 tablespoon extra-virgin olive oil\r",
             "5 small carrots, diced small\r",
@@ -464,7 +464,7 @@
         "fat": 8,
         "carbohydrates": 26,
         "number_of_ingredients": 2,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "instructions": "Mix the yogurt, lime juice, cilantro and a pinch of salt in a bowl. Cover and chill until ready to use.\r\n\r\nHeat the vegetable oil in a large skillet over medium-high heat. Combine the ginger, chile, onion, cumin, and heavy pinch of salt, then add to the hot oil and cook, stirring, until most of the liquid has evaporated and the mixture is slightly toasted, about 5 minutes. \r\n\r\nStir in the chickpeas, carrots, salt and water and continue to cook, stirring, until the sauce is thick and the chickpea is heated through, about 2 more minutes. While cooking, lightly mash the chickpeas so they won't roll around when served.  Season with additional salt if necessary.\r\n\r\nDivide the chickpea filling among the naan bread. Drizzle with some of the yogurt sauce and roll up. Serve with chips.",
         "ingredients": [
             "1 tbsp ginger, peeled\r",
@@ -493,7 +493,7 @@
         "fat": 15,
         "carbohydrates": 12,
         "number_of_ingredients": 3,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "banana",
             "strawberry",
@@ -510,7 +510,7 @@
         "fat": 159,
         "carbohydrates": 76,
         "number_of_ingredients": 14,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "2\/3 cup panko\r",
             "1\/4 teaspoon red pepper flakes\r",
@@ -541,7 +541,7 @@
         "fat": 50,
         "carbohydrates": 12,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "4 c tomatoes, minced, peeled, and cored\r",
             "4 cup vegetable stock\r",
@@ -564,7 +564,7 @@
         "fat": 120,
         "carbohydrates": 72,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "4 ripe avocados\r",
             "2 roma tomates, diced fine\r",
@@ -587,7 +587,7 @@
         "fat": 100,
         "carbohydrates": 196,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup granulated sugar\r",
             "1 tbsp lemon zest, grated\r",
@@ -609,7 +609,7 @@
         "fat": 88,
         "carbohydrates": 264,
         "number_of_ingredients": 10,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup uncooked brown rice\r",
             "1 tbsp extra-virgin olive oil\r",
@@ -632,7 +632,7 @@
         "fat": 80,
         "carbohydrates": 268,
         "number_of_ingredients": 8,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "1 cup granulated sugar\r",
             "1 tbsp lemon zest, grated\r",
@@ -653,7 +653,7 @@
         "fat": 100,
         "carbohydrates": 196,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "instructions": "Brush bread slices with butter. Toast in skillet 3-5 minutes until golden brown, turning once.\r\n\r\nMeanwhile, cut 1\/16th (1\/4 cup from 4 cups) of the tomatoes into quarters; set aside for garnish. Finely dice remaining tomatoes.\r\n\r\nAdd oil, onion, and garlic to skillet; cook over medium-high heat 2\u20133 minutes or until onion is translucent, stirring frequently. Carefully add diced tomatoes, broth, pasta, cream, salt and black pepper. Bring to a boil. Cover and cook 6\u20138 minutes or until pasta is still slightly firm, stirring occasionally.\r\n\r\nRemove skillet from heat; add half of the cheese and stir until cheese is completely melted. Top with remaining cheese. Cover and let stand 3\u20134 minutes or until cheese is melted. Arrange bread in an overlapping circular pattern around edge of skillet. Garnish with reserved tomatoes and parsley, if desired.",
         "ingredients": [
             "8 slices bread, halved\r",
@@ -680,7 +680,7 @@
         "fat": 100,
         "carbohydrates": 150,
         "number_of_ingredients": 7,
-        "img_path": "../images/grilled_salmon.jpg",
+        "img_path": "../images/image_here.png",
         "ingredients": [
             "12 oz soba noodles\r",
             "1 tsp sesame oil\r",
