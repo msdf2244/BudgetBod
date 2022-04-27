@@ -64,6 +64,9 @@ li a:hover:not(.active){
   transform: translateY(4px);
 }
 
+form {
+  margin: 3em;
+}
 
 /* weight slider */
 .weight_slider{

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel = "stylesheet" href="/CSS_Files/makeup.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Home</title>
+
+</head>
+
+<body>
+
+<!--Navbar -->
+<ul>
+  <a class = "navbar-brand">BudgetBod</a>
+  <li><a class = "active" href="Home.html">Home</a></li>
+  <li><a href="Recipes.html">Recipes</a></li>
+  <li><a href="About.html">About Us</a></li>
+</ul>
+
+
+<!--User Input -->
+<h1>Sign Up</h1>
+
+<form action="/" method="post">
+
+    <!--First and last name -->
+    <label for = "fname">First Name:</label> <br></br>
+    <input type = "text" id = "fname" name="fname"><br><br>
+    <label for = "lname">Last Name:</label> <br></br>
+    <input type = "text" id = "lname" name="lname"><br><br>
+
+    <!--Budget-->
+    <label for = "Budget">Monthly Budget:</label>
+    <input type = "number" name="budget">  <br></br>
+
+    <!--Age-->
+    <label for = "Age">Age:</label>
+    <input type = "number" min = 10 max = 150 name="age">  <br></br>
+
+    <!--Height-->
+    <label for = "Height">Height:</label> <br></br>
+    Feet: <input type = "number" id = "feet" name = "feet">  <br></br>
+    Inches: <input type = "number" id = "inches" name = "inches">  <br></br>
+
+    <!--Gender Select-->
+    <p>Select your gender.</p>
+    <input type = "radio" id = "male" name="gender" value = "Male">
+    <label for = "male">Male</label>
+    <input type = "radio" id = "female" name = "gender" value = "Female">
+    <label for = "female">Female</label>
+
+    <!--Weight-->
+  <div class = "slider">
+    <h3>Select your Weight</h3>
+    <p>Weight: <span id = "weight_value"></span> lbs</p>
+    <input type = "range" min = "20" max = "400" value = "200" id = "weight_slider" name="weight"><br></br>
+
+  </div>
+
+   <!--Activity Level-->
+   <div>
+   <label for = "Activity">Activity Level:</label>
+   <input type = "number" min = 1 max = 5 id = "activity_level">  <br></br>
+
+  </div>
+
+   <!--Goal Selection-->
+   <p>What is your weight goal?</p>
+   <input type = "radio" id = "lose" name = "weight_goal" value = "Lose">
+   <label for = "lose">Lose Weight</label>
+   <input type = "radio" id = "maintain" name = "weight_goal" value = "Maintain">
+   <label for = "maintain">Maintain Weight</label>
+   <input type = "radio" id = "bulk" name = "weight_goal" value = "Bulk">
+   <label for = "bulk">Bulk</label> <br></br>
+
+  <!--Email-->
+  <label for = "Email"> Enter your email: </label>
+  <input type="email" id = "emails" name = "emails" multiple> <br></br>
+
+
+  <!--Submit Button-->
+  <button class = "submit" type="button" window.location.href='Recipes.html'">Submit</button>
+
+<script src = "../Javascript_Files\script.js"></script>
+<script src = "../Javascript_Files\user_input.js"></script>
+
+
+</form>
+
+
+</body>
+
+</html>
