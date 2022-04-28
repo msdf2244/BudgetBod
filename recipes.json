@@ -1,36 +1,4 @@
 {
-    "1": {
-        "name": "Rosemary Grilled Salmon",
-        "calories": 500,
-        "protein": 12,
-        "fat": 8,
-        "carbs": 10,
-        "number_of_ingredients": 2,
-        "img_path": "../images/image_here.png",
-        "ingredients": [
-            "salmon",
-            "rosemary"
-        ],
-        "price": 21.00,
-        "instructions": "Season salmon with salt and set aside.\r\n\r\nCombine marinade ingredients, except lemon slices, in a small saucepan and bring to a boil. Remove from heat and allow to cool to room temperature. Add lemon and pour cooled marinade over fish and marinate refrigerated for 2 to 4 hours. Turn fish occasionally.\r\n\r\nTo serve: Grill or broil on both sides until just done, approximately 4 to 5 minutes per side. Be careful not to overcook. Salmon should still be translucent in the center. Serve with Soba Noodle Salad on the side."
-    },
-    "2": {
-        "name": "Strawberry Banana Smoothie",
-        "calories": 300,
-        "protein": 12,
-        "fat": 15,
-        "carbohydrates": 12,
-        "number_of_ingredients": 3,
-        "img_path": "../images/image_here.png",
-        "ingredients": [
-            "banana",
-            "strawberry",
-            "protein powder"
-        ],
-        "price": 13.00, 
-        "instructions": "Blend everything together until smooth."
-        
-    },
     "3": {
         "name": "Baked Shrimp Scampi",
         "calories": 2565,
@@ -38,7 +6,7 @@
         "fat": 159,
         "carbohydrates": 76,
         "number_of_ingredients": 14,
-        "img_path": "../images/image_here.png",
+        "img_path": "./images/image_here.png",
         "ingredients": [
             "2\/3 cup panko\r",
             "1\/4 teaspoon red pepper flakes\r",
@@ -271,7 +239,7 @@
         "fat": 0,
         "carbohydrates": 44,
         "number_of_ingredients": 5,
-        "img_path": "../images/image_here.png",
+        "img_path": "./images/image_here.png",
         "ingredients": [
             "1 large head cauliflower, cut into florets\r",
             "1 tbsp lemon zest\r",

@@ -41,13 +41,10 @@ async function filter_recipes(recommended_calories, budget) {
     let MAX_RECIPES = 10;
     let selected_recipes = []
     let count = 0;
-    console.log(Object.keys(recipes));
     for (var key of Object.keys(recipes)) {
         let current = {}
-        console.log(recipes[key]);
         let cal = recipes[key].calories;
         let price = recipes[key].price;
-        console.log(cal, price);
         if (cal < recommended_calories && price < budget) {
             current["name"] = recipes[key].name;
             current["calories"] = recipes[key].calories;
@@ -71,14 +68,10 @@ app.post("/", async (req, res) => {
     let bmr = basal_metabolic_rate(is_male, height, weight, age);
     let calories = caloric_intake(bmr, parseInt(req.body.activity_level));
     let recommended_calories = calories / 3;
-    let budget = parseInt(req.body.budget) / 90;
+    let budget = parseInt(req.body.budget) / 30;
     let filtered_recipes = await filter_recipes(recommended_calories, budget);
     res.render("./recipes.ejs", {recipes: filtered_recipes});
 })
-
-app.post("/recipe_selection", (req, res) => {
-    console.log("recipe selection POSTED");
-});
 
 app.listen(3000, () => {
     console.log("listening on port 3000 -> http://localhost:3000/");
