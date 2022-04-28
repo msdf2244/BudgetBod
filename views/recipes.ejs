@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel = "stylesheet" href="../CSS_Files/menu.css">
+<title>Recipes</title>
+</head>
+<body>
+
+<!--Navbar -->
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class = "active" href="Recipes.html">Recipes</a></li>
+  <li><a href="About.html">About Us</a></li>
+</ul>
+
+<!--Recipe Cards-->
+<div class = "flex-container">
+
+
+<!--Recipe Cards-->
+  <% recipes.forEach(function(recipe) { %>
+    <div class="recipe_card">
+      <img src=<%= recipe.img_path %> alt="Avatar" style="width:100%">
+      <div class="container">
+        <h4><b><%= recipe.name %></b></h4> 
+        <p><%= recipe.calories %> calories</p> 
+        <!--TODO: change this href-->
+        <form action="/recipe_selection", method="post">
+          <a href=<%= encodeURI("./recipes/" + recipe.name + ".html")%> class="view_recipe">View Recipe</a>
+        </form>
+      </div>
+    </div>
+  <% }) %> 
+</div>
+</body>
+
+</html>
