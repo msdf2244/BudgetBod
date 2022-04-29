@@ -26,7 +26,7 @@
         <p><%= recipe.calories %> calories</p> 
         <!--TODO: change this href-->
         <form action="/recipe_selection", method="post">
-          <a href=<%= encodeURI("./recipes/" + recipe.name + ".html")%> class="view_recipe">View Recipe</a>
+          <a href=<%= encodeURI("./recipes/" + recipe.name.split(" ").join('-') + ".html")%> class="view_recipe">View Recipe</a>
         </form>
       </div>
     </div>
