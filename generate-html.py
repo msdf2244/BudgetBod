@@ -1,4 +1,21 @@
+import json
 
+database = json.load(open("recipes.json", "r"))
+
+def main():
+
+    for key, value in database.items():
+        html_file = open("recipes/" + value["name"] + ".html", "w")
+
+        name = value["name"]
+        img_path = value["img_path"]
+        ingredients = value["ingredients"]
+        instructions = value["instructions"]
+        calories = value["calories"]
+        fat = value["fat"]
+        proteins = value["protein"]
+        carbohydrates = value["carbohydrates"]
+        html = f"""
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -19,10 +36,10 @@
             </ul>
             <div class="grid-container">
                 <div class="title-bar">
-                    Frozen lemon souffle
+                    {name}
                 </div>
                 <div class="image-container">
-                    <img src="./../images/image_here.png" alt="Frozen lemon souffle">
+                    <img src="./{img_path}" alt="{name}">
                 </div>
                 <div class="card-container">
                     <div class="card-title">
@@ -33,7 +50,14 @@
                         <th>Ingredients</th>
                         <th>Measurements</th>
                         <th>Price</th>
-        <tr><td>1 cup granulated sugar</td><td></td><td></td></tr><tr><td>1 tbsp lemon zest, grated</td><td></td><td></td></tr><tr><td>3/4 cup lemon juice</td><td></td><td></td></tr><tr><td>8 large eggs, whites and yolks separated</td><td></td><td></td></tr><tr><td>1/4 tsp salt</td><td></td><td></td></tr><tr><td>2/3 cup heavy cream, cold</td><td></td><td></td></tr><tr><td>1 1/2 cup raspberries, about 6 oz</td><td></td><td></td></tr><tr><td>confectioners' sugar, for dusting</td><td></td><td></td></tr>
+        """
+        for ingredient in ingredients:
+            html += "<tr>"
+            html += "<td>" + ingredient + "</td>"
+            html += "<td></td>"
+            html += "<td></td>"
+            html += "</tr>"
+        html += f"""
         </table>
         </div>
         <div class="card-container">
@@ -41,16 +65,11 @@
                 Instructions
             </div>
             <div class="card-body">
-                1. Wrap outside of a 3.5-cup souffle mold or four 6-ounce ramekins with parchment, extending 2 to 3 inches above rim (it should fit snugly). Secure with tape, set aside.
-
-2. In a medium saucepan, whisk together granulated sugar, lemon zest and juice, egg yolks, and salt over medium-high. Cook, whisking constantly, until mixture is thick enough to coat the back of a spoon and small bubbles form around edge of pan, about 5 minutes (do not boil). Immediately remove from heat while continuing to whisk. Pour through a fine-mesh sieve into a heatproof bowl, pressing on lemon curd with a rubber spatula.
-
-3. Place plastic wrap directly against surface of curd and refrigerate until cool, about 30 minutes (or up to overnight).
-
-4. In a large bowl, using an electric mixer, beat egg whites on high until stiff peaks form, 2 minutes. Gently fold egg whites into cooled lemon curd. In the same large bowl, beat cream on high until stiff peaks form, 1 to 2 minutes. Gently fold whipped cream into lemon curd mixture. Pour into mold and freeze until firm, 6 hours (or up to overnight). To serve, remove parchment, top with raspberries and dust with confectioners' sugar.
+                {instructions}
             </div>
         </div>
-        
+        """
+        html += f"""
         <div class="card-container">
             <div class="card-title">
                 Nutritional Information
@@ -59,19 +78,19 @@
                 <table>
                     <tr>
                         <td>Calories</td>
-                        <td>1732</td>
+                        <td>{calories}</td>
                     </tr>
                     <tr>
                         <td>Protein</td>
-                        <td>56</td>
+                        <td>{proteins}</td>
                     </tr>
                     <tr>
                         <td>Fat</td>
-                        <td>100</td>
+                        <td>{fat}</td>
                     </tr>
                     <tr>
                         <td>Carbohydrates</td>
-                        <td>196</td>
+                        <td>{carbohydrates}</td>
                     </tr>
                 </table>
             </div>
@@ -79,4 +98,7 @@
     </div>
 </body>
 </html>
-        
+        """
+        html_file.write(html)
+        html_file.close()
+main()
