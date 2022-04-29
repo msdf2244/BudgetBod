@@ -37,7 +37,7 @@
         "fat": 50,
         "carbohydrates": 12,
         "number_of_ingredients": 7,
-        "img_path": ".../images/tomato-basil-soup.jpg",
+        "img_path": "../images/tomato-basil-soup.jpg",
         "ingredients": [
             "4 c tomatoes, minced, peeled, and cored\r",
             "4 cup vegetable stock\r",
@@ -246,7 +246,7 @@
         "fat": 0,
         "carbohydrates": 44,
         "number_of_ingredients": 5,
-        "img_path": "./images/Chili-Lime-Roasted-Cauliflower.jpg",
+        "img_path": "../images/Chili-Lime-Roasted-Cauliflower.jpg",
         "ingredients": [
             "1 large head cauliflower, cut into florets\r",
             "1 tbsp lemon zest\r",
