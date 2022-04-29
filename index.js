@@ -70,7 +70,25 @@ app.post("/", async (req, res) => {
     let recommended_calories = calories / 3;
     let budget = parseInt(req.body.budget) / 30;
     let filtered_recipes = await filter_recipes(recommended_calories, budget);
-    res.render("./recipes.ejs", {recipes: filtered_recipes});
+    res.render("recipes.ejs", {recipes: filtered_recipes});
+})
+
+app.get("/about.html", (req, res) => {
+    res.sendFile("About.html");
+})
+
+app.get("/Recipes.html", (req, res) => {
+    console.log("GET RECIPES");
+    let rec = []
+    for (var key of Object.keys(recipes)) {
+        current = {}
+        current["name"] = recipes[key].name;
+        current["calories"] = recipes[key].calories;
+        current["img_path"] = recipes[key].img_path;
+        rec.push(current);
+    }
+    
+    res.render("recipes.ejs", {recipes: rec});
 })
 
 app.listen(3000, () => {
